@@ -1,4 +1,4 @@
-*.PostgreSQL linguist-detectable=true
+*.sql linguist-detectable=true
 
 *.java linguist-detectable=false
 
