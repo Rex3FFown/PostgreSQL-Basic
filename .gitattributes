@@ -1,2 +1,9 @@
-app/* linguist-documentation=false
-app/* linguist-vendored
+*.PostgreSQL linguist-detectable=true
+
+*.java linguist-detectable=false
+
+*.js linguist-detectable=false
+
+*.html linguist-detectable=false
+
+*.xml linguist-detectable=false
