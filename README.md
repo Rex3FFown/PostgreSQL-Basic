@@ -1,4 +1,4 @@
-# PgSQL Learning Repository
+# PgSQL Learning Repository🐘🐘🐘
 
 EN/This repository contains sample code and scripts from my PostgreSQL learning journey. It includes various SQL queries, PL/pgSQL functions, and procedures.
 
