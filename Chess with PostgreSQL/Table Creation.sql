@@ -11,6 +11,13 @@ CREATE TABLE oyun (
     bitiş_zamanı TIMESTAMP
 );
 
+CREATE TABLE tahtalar (
+    tahta_id SERIAL PRIMARY KEY,
+    oyun_id INT REFERENCES oyun(oyun_id),
+    konum CHAR(2) NOT NULL, --  'e4', 'a1'
+    taş CHAR(2) --'bp' (beyaz piyon), 'sk' (siyah şah)
+);
+
 CREATE TABLE hamleler (
     hamle_id SERIAL PRIMARY KEY,
     oyun_id INT REFERENCES oyun(oyun_id),
